@@ -1,0 +1,122 @@
+/**
+ * iA Writer Template “Fiction Machine”
+ */
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  font-style: normal;
+  src: local("Cooper Hewitt");
+}
+
+@font-face {
+  font-family: "Georgia";
+  font-style: normal;
+  src: local("Georgia");
+}
+
+@font-face {
+  font-family: "Didot";
+  font-style: normal;
+  src: local("Didot");
+}
+
+.night-mode {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+@media print {
+    body {
+        color: rgba (0, 0, 0, 1);
+        margin: 1.5in 1in 1.5in 1in
+    }
+}
+
+@media screen {
+    body {
+        color: rgba (1, 1, 1, 1);
+        width: 90%;
+        margin: 3em auto;
+    }
+}
+
+.header {
+    font: 0.8em 'Helvetica', sans-serif;
+    text-align: center;
+}
+
+.footer {
+    font: 0.8em 'Helvetica', sans-serif;
+    text-align: center;
+}
+
+h1 {
+  font: 3.2em 'Cooper Hewitt';
+  text-indent: 0;
+  text-align: center;
+  line-height: 1em;
+  width: 100%;
+  padding: 0;
+  margin: 1em 0 1em 0;
+  hyphens: none;
+  page-break-before: always;
+}
+
+h2 {
+  font: 2.0em 'Cooper Hewitt';
+  font-style: normal;
+  text-indent: 0;
+  text-align: center;
+  line-height: 1.8em;
+  width: 16em;
+  padding: 0;
+  margin: 1em auto 3em auto;
+  hyphens: none;
+}
+
+h3 {
+  font: 1.8em 'Didot';
+  font-style: normal;
+  text-indent: 0;
+  text-align: center;
+  line-height: 1.8em;
+  width: 16em;
+  padding: 0;
+  margin: 1em auto 3em auto;
+  hyphens: none;
+}
+
+p {
+  font: 1.2em 'Georgia';
+  line-height: 2em;
+  text-indent: 2em;
+  padding: 0 0 0 0;
+  margin: 0 auto 0 auto;
+}
+
+p:nth-child(0):first-letter {
+  display: block;
+  float: left;
+  font-size: 3.5em;
+  line-height: 1em;
+  padding: 0 0.05em 0 0;
+}
+
+hr {
+  width: 150px;
+  margin: 4em auto;
+  border-top: 1px solid rgb(131, 131, 131);
+}
+
+blockquote {
+  color: rgb(62, 165, 207);
+  font: 1.8em 'Didot';
+  font-style: normal;
+  text-indent: 0;
+  text-align: left;
+  line-height: 1.4em;
+  width: 30%;
+  padding: 0;
+  margin: 1em auto 3em auto;
+  hyphens: none;
+}
